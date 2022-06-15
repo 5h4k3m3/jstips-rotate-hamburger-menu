@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Rotate Hamburger Menu</title>
+</head>
+<body>
+  <div class="page">
+    <!-- toggle -->
+    <span class="menu-toggle">
+      <i class="menu-open fa fa-bars fa-lg"></i>
+      <i class="menu-close fa fa-times fa-lg"></i>
+    </span>
+
+    <!-- menu item -->
+    <ul class="menu-items">
+      <li>
+        <a href="#">
+          <i class="icon fa fa-signal fa-2x"></i>
+           About Us
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon fa fa-newspaper fa-2x"></i>
+           Blog
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <i class="icon fa fa-heart fa-2x"></i>
+           Contact
+        </a>
+      </li>
+    </ul>
+
+    <!-- content -->
+    <main class="content">
+      <div class="content-inner">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore nesciunt excepturi necessitatibus odio voluptatum officiis similique beatae, incidunt pariatur vel consequatur, nam reprehenderit soluta accusamus eos sequi consequuntur, et sed ex cum! Nihil quod quis omnis repellendus sit culpa assumenda eius pariatur doloremque nesciunt corrupti repudiandae consequatur error cupiditate doloribus optio, ab mollitia. Ducimus earum accusantium, molestias asperiores error laudantium cumque voluptatum rem, ea cupiditate distinctio reprehenderit perspiciatis, optio corporis odit! Vero, eligendi. Asperiores quam corrupti itaque exercitationem! Excepturi numquam necessitatibus nisi porro quia, quaerat voluptate sit incidunt! Repellendus soluta velit, omnis totam atque dignissimos nam odio quia explicabo nobis porro eaque veniam nihil eius illo ab ducimus libero nulla aspernatur deserunt ut, corrupti dolorem. Beatae corporis recusandae magnam, eum dolores amet dolorem hic quia id ipsum blanditiis, eos omnis fugit reprehenderit consequuntur nemo? Est ipsum repellat rem enim nulla, inventore excepturi aliquid impedit quam molestias, saepe odit consequatur.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore nesciunt excepturi necessitatibus odio voluptatum officiis similique beatae, incidunt pariatur vel consequatur, nam reprehenderit soluta accusamus eos sequi consequuntur, et sed ex cum! Nihil quod quis omnis repellendus sit culpa assumenda eius pariatur doloremque nesciunt corrupti repudiandae consequatur error cupiditate doloribus optio, ab mollitia. Ducimus earum accusantium, molestias asperiores error laudantium cumque voluptatum rem, ea cupiditate distinctio reprehenderit perspiciatis, optio corporis odit! Vero, eligendi. Asperiores quam corrupti itaque exercitationem! Excepturi numquam necessitatibus nisi porro quia, quaerat voluptate sit incidunt! Repellendus soluta velit, omnis totam atque dignissimos nam odio quia explicabo nobis porro eaque veniam nihil eius illo ab ducimus libero nulla aspernatur deserunt ut, corrupti dolorem. Beatae corporis recusandae magnam, eum dolores amet dolorem hic quia id ipsum blanditiis, eos omnis fugit reprehenderit consequuntur nemo? Est ipsum repellat rem enim nulla, inventore excepturi aliquid impedit quam molestias, saepe odit consequatur.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempore nesciunt excepturi necessitatibus odio voluptatum officiis similique beatae, incidunt pariatur vel consequatur, nam reprehenderit soluta accusamus eos sequi consequuntur, et sed ex cum! Nihil quod quis omnis repellendus sit culpa assumenda eius pariatur doloremque nesciunt corrupti repudiandae consequatur error cupiditate doloribus optio, ab mollitia. Ducimus earum accusantium, molestias asperiores error laudantium cumque voluptatum rem, ea cupiditate distinctio reprehenderit perspiciatis, optio corporis odit! Vero, eligendi. Asperiores quam corrupti itaque exercitationem! Excepturi numquam necessitatibus nisi porro quia, quaerat voluptate sit incidunt! Repellendus soluta velit, omnis totam atque dignissimos nam odio quia explicabo nobis porro eaque veniam nihil eius illo ab ducimus libero nulla aspernatur deserunt ut, corrupti dolorem. Beatae corporis recusandae magnam, eum dolores amet dolorem hic quia id ipsum blanditiis, eos omnis fugit reprehenderit consequuntur nemo? Est ipsum repellat rem enim nulla, inventore excepturi aliquid impedit quam molestias, saepe odit consequatur.
+        </p>
+      </div>
+    </main>
+  </div>
+  <script>
+    const page = document.querySelector('.page');
+    const menuToggle = document.querySelector('.menu-toggle');
+
+    menuToggle.addEventListener('click', () => {
+      page.classList.toggle('rotate');
+    });
+  </script>
+</body>
+</html>
